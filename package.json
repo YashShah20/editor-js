@@ -1,0 +1,59 @@
+{
+  "name": "editor_js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@editorjs/checklist": "^1.4.0",
+    "@editorjs/code": "^2.8.0",
+    "@editorjs/delimiter": "^1.3.0",
+    "@editorjs/editorjs": "^2.26.5",
+    "@editorjs/embed": "^2.5.3",
+    "@editorjs/header": "^2.7.0",
+    "@editorjs/image": "^2.8.1",
+    "@editorjs/inline-code": "^1.4.0",
+    "@editorjs/list": "^1.8.0",
+    "@editorjs/marker": "^1.3.0",
+    "@editorjs/nested-list": "^1.3.0",
+    "@editorjs/paragraph": "^2.9.0",
+    "@editorjs/quote": "^2.5.0",
+    "@editorjs/table": "^2.2.1",
+    "core-js": "^3.8.3",
+    "docx": "^7.8.2",
+    "fs": "^0.0.1-security",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
