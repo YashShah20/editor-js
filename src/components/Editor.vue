@@ -1,10 +1,14 @@
 <template>
   <div>
-    <button @click="save">Export to JSON</button>
+    <button class="btn btn-primary" @click="save">Export to JSON</button>
+
     <hr />
-    <p>JSON DATA</p>
+    <h2>JSON DATA</h2>
+    <hr />
+
     <pre>{{ JSONData }}</pre>
     <hr />
+
     <div ref="editor"></div>
     <hr />
   </div>
