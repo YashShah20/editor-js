@@ -1,21 +1,25 @@
 <template>
-  <div class="container mt-5">
-    <document-editor class="mb-2"/>
-    <doc-export class="mt-2"/>
+  <div>
+    <div class="container mt-3 text-center">
+      <router-link class="me-3" to="/">tinyMCE</router-link>
+      <router-link to="/editor-js">editor.js</router-link>
+    </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Editor from "./components/Editor.vue";
-import Export from "./components/Export.vue";
-
 export default {
-  name: "App",
-  components: {
-    "document-editor": Editor,
-    "doc-export": Export,
-  },
-  methods: {},
+
 };
 </script>
-<style></style>
+<style scoped>
+a {
+  text-decoration: none;
+  font-size: large;
+  background-color: aliceblue;
+  padding:10px;
+  border-radius: 5px;
+}
+
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container mt-5">
     <button class="btn btn-primary" @click="save">Export to JSON</button>
 
     <hr />
